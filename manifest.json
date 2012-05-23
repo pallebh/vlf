@@ -1,0 +1,18 @@
+{
+  "name": "vlf",
+  "version": "0.0.1",
+  "description": "Finds´video link in homepages in putlocker and friends",
+  "permissions": 
+  [
+  ],
+  "icons": {
+    "48" : "icon.png",
+    "128" : "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.putlocker.com/file/*"],
+      "js" : [ "jquery-1.7.2.min.js", "contentscript.js"]
+    }
+  ]
+}
