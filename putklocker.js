@@ -1,5 +1,3 @@
-alert("hej palle")  ;
-
 var nodes = document.evaluate( '//*[@id="player_api"]' , document, null, XPathResult.ANY_TYPE, null)
 var resultNode = nodes.iterateNext()
 
